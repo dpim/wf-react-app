@@ -9,6 +9,8 @@
     "build-webpack": "webpack --config webpack.config.js --mode production"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
     "@webflow/designer-extension-typings": "*",
     "babel-loader": "^9.1.3",
     "concurrently": "^6.3.0",
@@ -19,6 +21,9 @@
     "react-dom": "^18.2.0"
   },
   "babel": {
-    "presets": ["@babel/preset-env", "@babel/preset-react"]
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   }
 }
